@@ -28,7 +28,7 @@ const ConferenceEvent = () => {
     
       const handleRemoveFromCart = (index) => {
         if (venueItems[index].quantity > 0) {
-          dispatch(decrementAvQuantity(index));
+          dispatch(decrementQuantity(index));
         }
       };
     const handleIncrementAvQuantity = (index) => {
